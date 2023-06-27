@@ -1,0 +1,19 @@
+{
+  "name": "cy-creathus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "delete:reports": "rm -r cypress/results/* || true"
+  },
+  "author": "Thiago Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.6.3",
+    "mocha-junit-reporter": "^2.2.0"
+  },
+  "dependencies": {
+    "cypress": "^12.12.0"
+  }
+}
